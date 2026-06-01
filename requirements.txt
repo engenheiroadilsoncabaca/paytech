@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+# Bibliotecas de Visão Computacional e Dados
+opencv-python>=4.8.0
+easyocr>=1.7.1
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Deteção de Objetos (YOLOv8)
+ultralytics

@@ -1,0 +1,24 @@
+paytech-poc4-visao/
+│
+├── .gitignore               # Ignorar vídeos pesados, arquivos locais e chaves
+├── README.md                # Documentação principal do projeto e metas (Níveis 1, 2 e 3)
+├── requirements.txt         # Bibliotecas necessárias (opencv-python, easyocr, etc.)
+│
+├── src/                     # Código-fonte do projeto
+│   ├── __init__.py
+│   ├── pipeline.py          # Script principal que orquestra o fluxo
+│   │
+│   ├── core/                # Módulos principais de processamento
+│   │   ├── __init__.py
+│   │   ├── event_detector.py # Nível 1: Identificação de início/fim do abastecimento
+│   │   ├── ocr_plates.py     # Nível 2: Detecção e leitura de placas (EasyOCR/YOLO)
+│   │   └── auditor.py        # Cruzamento de timestamps com o banco de dados
+│   │
+│   └── utils/               # Funções de suporte
+│       ├── __init__.py
+│       └── video_helpers.py  # Funções para redimensionamento, máscaras de LGPD, etc.
+│
+└── config/                  # Arquivos de configuração (coordenadas das ROIs da câmera)
+    └── camera_config.json
+
+   
