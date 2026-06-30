@@ -1,0 +1,5 @@
+path: /home/adilsoncaba-a/Documentos/paytech/Dados
+train: images/train
+val: images/train
+nc: 5
+names: ['bico', 'pessoa', 'veiculo', 'toten', 'placa']
