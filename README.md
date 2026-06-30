@@ -85,7 +85,7 @@ python src/pipeline.py
 
 - O sistema processa todos os vídeos encontrados na pasta `Dados/videos`;
 - Uma interface será aberta reproduzindo o vídeo com as detecções da IA em tempo real;
-- Pressione **`q`** para interromper a execução de forma segura.
+- Pressione **`q ou Ctrl+c`** para interromper a execução de forma segura.
 
 ---
 
