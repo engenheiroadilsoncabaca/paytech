@@ -3,7 +3,13 @@ venv/
 env/
 
 # Dados Brutos e Vídeos (Demasiado pesados para o GitHub)
+data/
+train/ 
+val/
 Dados/
+paytech/
+*.zip
+*.csv
 *.mp4
 *.avi
 *.mkv

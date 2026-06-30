@@ -1,0 +1,11 @@
+path: ../paytech 
+train: train/images
+val: val/images
+
+# Classes
+names:
+  0: Bico
+  1: Pessoa
+  2: Veiculo
+  3: Toten
+  4: placa
